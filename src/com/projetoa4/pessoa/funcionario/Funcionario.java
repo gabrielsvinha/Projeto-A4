@@ -1,3 +1,8 @@
+package com.projetoa4.pessoa.funcionario;
+
+import com.projetoa4.cadastro.CadastroProjeto;
+import com.projetoa4.pessoa.Pessoa;
+
 public class Funcionario extends Pessoa {
     private double salario;
     CadastroProjeto projeto = new CadastroProjeto();

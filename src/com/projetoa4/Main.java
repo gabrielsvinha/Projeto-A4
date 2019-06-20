@@ -1,3 +1,9 @@
+package com.projetoa4;
+
+import com.projetoa4.cadastro.CadastroProjeto;
+import com.projetoa4.emissao.EmissaoDeRelatorio;
+import com.projetoa4.pessoa.cliente.Cliente;
+
 public class Main {
     public static void main(String args[]) {
         Cliente cliente1 = new Cliente(562, "renan", "97201091", "rua sla");
@@ -6,4 +12,4 @@ public class Main {
         EmissaoDeRelatorio emissaoDeRelatorio = new EmissaoDeRelatorio();
         emissaoDeRelatorio.emitirRelatorio(cliente1);
     }
-}
+}   

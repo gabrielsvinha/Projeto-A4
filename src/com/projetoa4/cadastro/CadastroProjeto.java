@@ -1,3 +1,7 @@
+package com.projetoa4.cadastro;
+
+import com.projetoa4.pessoa.cliente.Cliente;
+
 import java.util.Date;
 import java.text.DateFormat;
 

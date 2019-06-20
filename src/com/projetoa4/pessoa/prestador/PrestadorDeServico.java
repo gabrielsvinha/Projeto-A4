@@ -1,3 +1,7 @@
+package com.projetoa4.pessoa.prestador;
+
+import com.projetoa4.pessoa.Pessoa;
+
 public class PrestadorDeServico extends Pessoa {
     private String descricao;
     private double desconto;

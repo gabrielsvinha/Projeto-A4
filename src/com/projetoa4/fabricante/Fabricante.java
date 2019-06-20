@@ -1,3 +1,5 @@
+package com.projetoa4.fabricante;
+
 public class Fabricante {
     private int codigo;
     private String nome;
@@ -37,7 +39,8 @@ public class Fabricante {
     }
     
     public String toString() {
-        return String.format("Código: " + this.getCodigo() + " | Nome: " + this.getNome() + " | Telefone: " + this.getTelefone() + " | Endereço: " + this.getEndereco());
+        return String.format("Código: " + this.getCodigo() + " | Nome: " + this.getNome()
+                + " | Telefone: " + this.getTelefone() + " | Endereço: " + this.getEndereco());
     }
     
     public Fabricante() {}

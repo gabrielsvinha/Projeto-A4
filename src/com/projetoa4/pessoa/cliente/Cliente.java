@@ -1,3 +1,7 @@
+package com.projetoa4.pessoa.cliente;
+
+import com.projetoa4.pessoa.Pessoa;
+
 public class Cliente extends Pessoa {
     //public String emitirRelatorio() {
         

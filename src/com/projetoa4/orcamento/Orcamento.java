@@ -1,3 +1,8 @@
+package com.projetoa4.orcamento;
+
+import com.projetoa4.cadastro.CadastroProjeto;
+import com.projetoa4.pessoa.cliente.Cliente;
+
 public class Orcamento {
     private int codigo;
     private String descricao;

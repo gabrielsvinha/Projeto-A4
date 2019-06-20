@@ -1,3 +1,8 @@
+package com.projetoa4.cadastro;
+
+
+import com.projetoa4.fabricante.Fabricante;
+
 public class CadastroMateriais {
     private int codigo;
     private String nome;

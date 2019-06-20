@@ -1,3 +1,5 @@
+package com.projetoa4.pessoa;
+
 public abstract class Pessoa {
     private String nome;
     private String telefone;
